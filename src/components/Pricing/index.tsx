@@ -78,8 +78,8 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox2
             packageName="Sob orçamento"
-           /*  price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"} */
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""} 
             subtitle="Eleve o seu negócio a outro patamar"
           >
             <OfferList text="Itens com Preço Reduzido" status="active" />
