@@ -61,8 +61,8 @@ const Pricing = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
             packageName="0€"
-            /*price={isMonthly ? "0" : "0"}
-            duration={isMonthly ? "mo" : "yr"} */
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""} 
             subtitle="Comece a vender sem burocracias"
           >
             <OfferList text="Itens com Preço Reduzido" status="active" />
