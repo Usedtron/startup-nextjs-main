@@ -1,74 +1,285 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
-const checkIcon = (
-  <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
-    <path d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
-  </svg>
-);
+import SharePost from "@/components/Blog/SharePost";
+import TagButton from "@/components/Blog/TagButton";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
+  description: "This is Blog Details Page for Startup Nextjs Template",
+  // other metadata
+};
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
-  );
-
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-      <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-              />
-
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Equipamentos de Qualidade" />
-                    <List text="Grande variedade de dispostivos" />
-                    <List text="Preços competitivos" />
+    <>
+      <section className="pb-[120px] pt-[150px]">
+        <div className="container">
+          <div className="-mx-4 flex flex-wrap justify-center">
+            <div className="w-full px-4 lg:w-8/12">
+              <div>
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                  10 amazing sites to download stock photos & digital assets for
+                  free
+                </h2>
+                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10"></div>
+                <div>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat.
+                  </p>
+                  <div className="mb-10 w-full overflow-hidden rounded">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                      <Image
+                        src="/images/blog/quemsomos.jpg"
+                        alt="image"
+                        fill
+                        className="object-cover object-center"
+                      />
+                    </div>
                   </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Garantia 90 dias" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Na [Nome da Empresa], nosso foco principal é combater o
+                    desperdício eletrônico e desafiar o domínio das grandes
+                    multinacionais, enquanto fornecemos uma solução acessível e
+                    sustentável para suas necessidades tecnológicas. Bem-vindo à
+                    sua fonte confiável de equipamentos eletrônicos originais
+                    usados.
+                  </p>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Especializados em uma ampla variedade de produtos, desde
+                    telemóveis e computadores até tablets, smartwatches,
+                    consolas, máquinas fotográficas e muito mais, oferecemos uma
+                    alternativa viável e acessível para aqueles que buscam
+                    tecnologia de qualidade sem comprometer sua vida pessoal ou
+                    financeira.
+                  </p>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Nossos equipamentos são cuidadosamente selecionados e
+                    classificados em diferentes graus de condição (A, B, C),
+                    garantindo que você encontre a opção que melhor se adapta às
+                    suas necessidades e orçamento. O grau A representa produtos
+                    em excelente estado, com poucos sinais de uso, enquanto os
+                    graus B e C oferecem opções mais acessíveis, mantendo a
+                    funcionalidade e a qualidade que você espera.
+                  </p>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Entendemos a importância da confiança ao adquirir produtos
+                    eletrônicos usados. Por isso, oferecemos uma garantia de 90
+                    dias para troca e devolução, assegurando sua tranquilidade e
+                    satisfação com sua compra.
+                  </p>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Junte-se a nós na jornada para um futuro mais sustentável e
+                    acessível, onde a tecnologia é uma ferramenta para melhorar
+                    vidas e oportunidades. Na [Nome da Empresa], estamos aqui
+                    para ajudá-lo a tornar isso uma realidade.
+                  </p>
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                    Digital marketplace for Ui/Ux designers.
+                  </h3>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    consectetur adipiscing elit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    mattis vulputate cupidatat.
+                  </p>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Consectetur adipiscing elit in voluptate velit.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Mattis vulputate cupidatat.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      Ligula ullamcorper malesuada proin
+                    </li>
+                  </ul>
+                  <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
+                    <p className="text-center text-base font-medium italic text-body-color">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod incididunt utionals labore et dolore magna
+                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
+                      etiam sit amet.
+                    </p>
+                    <span className="absolute left-0 top-0 z-[-1]">
+                      <svg
+                        width="132"
+                        height="109"
+                        viewBox="0 0 132 109"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          opacity="0.5"
+                          d="M33.0354 90.11C19.9851 102.723 -3.75916 101.834 -14 99.8125V-15H132C131.456 -12.4396 127.759 -2.95278 117.318 14.5117C104.268 36.3422 78.7114 31.8952 63.2141 41.1934C47.7169 50.4916 49.3482 74.3435 33.0354 90.11Z"
+                          fill="url(#paint0_linear_111:606)"
+                        />
+                        <path
+                          opacity="0.5"
+                          d="M33.3654 85.0768C24.1476 98.7862 1.19876 106.079 -9.12343 108.011L-38.876 22.9988L100.816 -25.8905C100.959 -23.8126 99.8798 -15.5499 94.4164 0.87754C87.5871 21.4119 61.9822 26.677 49.5641 38.7512C37.146 50.8253 44.8877 67.9401 33.3654 85.0768Z"
+                          fill="url(#paint1_linear_111:606)"
+                        />
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_111:606"
+                            x1="94.7523"
+                            y1="82.0246"
+                            x2="8.40951"
+                            y2="52.0609"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="white" stopOpacity="0.06" />
+                            <stop
+                              offset="1"
+                              stopColor="white"
+                              stopOpacity="0"
+                            />
+                          </linearGradient>
+                          <linearGradient
+                            id="paint1_linear_111:606"
+                            x1="90.3206"
+                            y1="58.4236"
+                            x2="1.16149"
+                            y2="50.8365"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop stopColor="white" stopOpacity="0.06" />
+                            <stop
+                              offset="1"
+                              stopColor="white"
+                              stopOpacity="0"
+                            />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </span>
+                    <span className="absolute bottom-0 right-0 z-[-1]">
+                      <svg
+                        width="53"
+                        height="30"
+                        viewBox="0 0 53 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          opacity="0.8"
+                          cx="37.5"
+                          cy="37.5"
+                          r="37.5"
+                          fill="#4A6CF7"
+                        />
+                        <mask
+                          id="mask0_111:596"
+                          style={{ maskType: "alpha" }}
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="75"
+                          height="75"
+                        >
+                          <circle
+                            opacity="0.8"
+                            cx="37.5"
+                            cy="37.5"
+                            r="37.5"
+                            fill="#4A6CF7"
+                          />
+                        </mask>
+                        <g mask="url(#mask0_111:596)">
+                          <circle
+                            opacity="0.8"
+                            cx="37.5"
+                            cy="37.5"
+                            r="37.5"
+                            fill="url(#paint0_radial_111:596)"
+                          />
+                          <g opacity="0.8" filter="url(#filter0_f_111:596)">
+                            <circle
+                              cx="40.8089"
+                              cy="19.853"
+                              r="15.4412"
+                              fill="white"
+                            />
+                          </g>
+                        </g>
+                        <defs>
+                          <filter
+                            id="filter0_f_111:596"
+                            x="4.36768"
+                            y="-16.5881"
+                            width="72.8823"
+                            height="72.8823"
+                            filterUnits="userSpaceOnUse"
+                            colorInterpolationFilters="sRGB"
+                          >
+                            <feFlood
+                              floodOpacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="BackgroundImageFix"
+                              result="shape"
+                            />
+                            <feGaussianBlur
+                              stdDeviation="10.5"
+                              result="effect1_foregroundBlur_111:596"
+                            />
+                          </filter>
+                          <radialGradient
+                            id="paint0_radial_111:596"
+                            cx="0"
+                            cy="0"
+                            r="1"
+                            gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(37.5 37.5) rotate(90) scale(40.2574)"
+                          >
+                            <stop stopOpacity="0.47" />
+                            <stop offset="1" stopOpacity="0" />
+                          </radialGradient>
+                        </defs>
+                      </svg>
+                    </span>
+                  </div>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    consectetur adipiscing elit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    mattis vulputate cupidatat.
+                  </p>
+                  <div className="items-center justify-between sm:flex">
+                    <div className="mb-5">
+                      <h4 className="mb-3 text-sm font-medium text-body-color">
+                        Popular Tags :
+                      </h4>
+                      <div className="flex items-center">
+                        <TagButton text="Design" />
+                        <TagButton text="Development" />
+                        <TagButton text="Info" />
+                      </div>
+                    </div>
+                    <div className="mb-5">
+                      <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
+                        Share this post :
+                      </h5>
+                      <div className="flex items-center sm:justify-end">
+                        <SharePost />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
-              </div>
-            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

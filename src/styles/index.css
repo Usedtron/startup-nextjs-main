@@ -31,3 +31,27 @@
     @apply opacity-100;
   }
 }
+
+.background-section {
+  position: relative; /* Ensure proper positioning for overlay */
+}
+
+.background-section::before {
+  content: ""; /* Create a pseudo-element for the overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.897);
+  opacity: 30%; /* Semi-transparent black overlay */
+  z-index: 0; /* Ensure overlay is above the background image */
+}
+
+.background-section {
+  background-image: url("/images/blog/quemsomos.jpg"); /* Set the background image */
+  background-size: cover; /* Cover the entire section */
+  background-position: center;
+  /* Ensure background image is behind the content */
+  /* You can add more styles as needed */
+}

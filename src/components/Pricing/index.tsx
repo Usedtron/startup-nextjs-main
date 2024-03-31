@@ -4,7 +4,6 @@ import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 import PricingBox2 from "./PricingBox2";
-import PricingBox3 from "./PricingBox3";
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -13,13 +12,13 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="As Nossas Modalidades"
+          paragraph="Aqui pode escolher o plano à sua medida."
           center
           width="665px"
         />
 
-        <div className="w-full">
+        {/*  <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
             <span
               onClick={() => setIsMonthly(true)}
@@ -57,60 +56,43 @@ const Pricing = () => {
               Yearly
             </span>
           </div>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "0" : "0"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="0€"
+            /*price={isMonthly ? "0" : "0"}
+            duration={isMonthly ? "mo" : "yr"} */
+            subtitle="Comece a vender sem burocracias"
           >
             <OfferList text="Itens com Preço Reduzido" status="active" />
-            <OfferList text="Ajuda com Logistica" status="active" />
+            <OfferList text="Ajuda com Logística" status="active" />
             <OfferList text="Suporte 24/7" status="active" />
-            <OfferList text="Formação presencial" status="inactive" />
+            <OfferList text="Formação" status="inactive" />
             <OfferList text="Site comercial" status="inactive" />
             <OfferList text="Criação de Empresa" status="inactive" />
             <OfferList
-              text="Apoio Financiamento Portugal2023"
+              text="Apoio Financiamento Portugal2030"
               status="inactive"
             />
           </PricingBox>
           <PricingBox2
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Sob orçamento"
+           /*  price={isMonthly ? "589" : "999"}
+            duration={isMonthly ? "mo" : "yr"} */
+            subtitle="Eleve o seu negócio a outro patamar"
           >
             <OfferList text="Itens com Preço Reduzido" status="active" />
-            <OfferList text="Ajuda com Logistica" status="active" />
+            <OfferList text="Ajuda com Logística" status="active" />
             <OfferList text="Suporte 24/7" status="active" />
-            <OfferList text="Formação presencial" status="active" />
-            <OfferList text="Site comercial" status="inactive" />
-            <OfferList text="Criação de Empresa" status="inactive" />
-            <OfferList
-              text="Apoio Financiamento Portugal2023"
-              status="inactive"
-            />
-          </PricingBox2>
-          <PricingBox3
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="Itens com Preço Reduzido" status="active" />
-            <OfferList text="Ajuda com Logistica" status="active" />
-            <OfferList text="Suporte 24/7" status="active" />
-            <OfferList text="Formação presencial" status="active" />
+            <OfferList text="Formação" status="active" />
             <OfferList text="Site comercial" status="active" />
             <OfferList text="Criação de Empresa" status="active" />
             <OfferList
-              text="Apoio Financiamento Portugal2023"
+              text="Apoio Financiamento Portugal2030"
               status="active"
             />
-          </PricingBox3>
+          </PricingBox2>
         </div>
       </div>
 
