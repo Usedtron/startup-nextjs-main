@@ -11,30 +11,35 @@ const FaqSection = () => {
 
   const faqData = [
     {
+      question: "Os produtos funcionam na perfeição?",
+      answer:
+        "Todos os nossos dispositivos passam por um rigoroso processo de 52 testes e recondicionamento para assegurar a sua plena funcionalidade.",
+    },
+    {
       question: "Quero revender os vossos produtos, como faço?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+        "Verificar os produtos em stock, anotar o SKU e fazer o pedido de encomenda por email.",
     },
     {
       question:
         "Gostei de um item, quanto tempo demora para receber a encomenda?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+        "O tempo de entrega é de 5 dias.",
     },
     {
       question: "Os itens têm garantia?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+        "Sim, os itêns têm garantia na legislação em vigor.",
     },
     {
       question: "Enganei-me na cor é possivel trocar?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+        "Será contactado a fim de confimar o stock encomendado, no entanto se houver algum engano é possivel efetuar troca do equipamento.",
     },
     {
       question: "O que significa grade A,B,C?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+        <span >Excelente - Grau A a melhor qualidade cosmética para um item recondicionado. A aparência do produto é como nova e não há riscos no ecrã <br /> Bom Grau B: os dispositivos apresentam sinais óbvios de uso com ligeiros sinais de desgaste, com alguns riscos no ecrã. <br />Razoavel Grau C: haverá riscos visíveis e defeitos cosméticos moderados.</span>
     },
   ];
 

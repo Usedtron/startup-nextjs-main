@@ -21,43 +21,37 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  Descubra quem somos
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10"></div>
                 <div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Bem-vindo à sua fonte confiável de equipamentos eletrônicos
+                    originais usados, uma solução mais economica e sustentável.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/quemsomos.jpg"
+                        src="/images/hero/bgvarios.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Na [Nome da Empresa], nosso foco principal é combater o
-                    desperdício eletrônico e desafiar o domínio das grandes
-                    multinacionais, enquanto fornecemos uma solução acessível e
-                    sustentável para suas necessidades tecnológicas. Bem-vindo à
-                    sua fonte confiável de equipamentos eletrônicos originais
-                    usados.
+                  <p className="mb-8 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Somos um fornecedor Europeu de equipamentos usados para
+                    revendedores de todos os tamanhos, desde pequenos até
+                    grandes negócios.
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Especializados em uma ampla variedade de produtos, desde
                     telemóveis e computadores até tablets, smartwatches,
                     consolas, máquinas fotográficas e muito mais, oferecemos uma
                     alternativa viável e acessível para aqueles que buscam
-                    tecnologia de qualidade sem comprometer sua vida pessoal ou
-                    financeira.
+                    tecnologia de qualidade a preços baixos.
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Nossos equipamentos são cuidadosamente selecionados e
                     classificados em diferentes graus de condição (A, B, C),
                     garantindo que você encontre a opção que melhor se adapta às
@@ -66,17 +60,17 @@ const AboutSectionOne = () => {
                     graus B e C oferecem opções mais acessíveis, mantendo a
                     funcionalidade e a qualidade que você espera.
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Entendemos a importância da confiança ao adquirir produtos
                     eletrônicos usados. Por isso, oferecemos uma garantia de 90
                     dias para troca e devolução, assegurando sua tranquilidade e
                     satisfação com sua compra.
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="text-block mb-10 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Junte-se a nós na jornada para um futuro mais sustentável e
                     acessível, onde a tecnologia é uma ferramenta para melhorar
-                    vidas e oportunidades. Na [Nome da Empresa], estamos aqui
-                    para ajudá-lo a tornar isso uma realidade.
+                    vidas e oportunidades. Na Get Your Biz, estamos aqui para
+                    ajudá-lo a tornar isso uma realidade.
                   </p>
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     Digital marketplace for Ui/Ux designers.

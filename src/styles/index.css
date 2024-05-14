@@ -33,11 +33,8 @@
 }
 
 .background-section {
-  background-image: url("/images/hero/bgvarios.jpg"); /* Defina a imagem de fundo */
+  background-image: url("/images/hero/iphones.jpg"); /* Defina a imagem de fundo */
   background-size: cover; /* Cubra toda a seção */
   background-position: center; /* Centralize a imagem de fundo */
   position: relative; /* Defina a posição relativa para que a camada de cor possa ser posicionada */
 }
-
-
-

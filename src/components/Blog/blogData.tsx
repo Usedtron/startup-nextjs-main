@@ -19,45 +19,41 @@ const BlogData = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  A nossa missão é fazer com que tenhas um rendimento extra todos os meses
                 </h2>
 
                 <div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Queres ganhar dinheiro extra sem risco e sem investimento?
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/hero/iphones6.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Na [Nome da Empresa], a nossa missão é dar oportunidade a
+                  <p className="mb-8 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Na Get Your Biz, a nossa missão é fornecer stock de qualidade e dar oportunidade a
                     empreendedores que enfrentam o desafio de dar o primeiro
                     passo. Sabemos que muitas vezes o medo nos prende e as
                     ideias permanecem apenas no papel. É por isso que estamos
-                    aqui para ajudar você a transformar essas ideias em
+                    aqui para o ajudar a transformar essas ideias em
                     realidade e começar a aumentar o seu rendimento de uma forma
                     passiva e sem a necessidade de investimento inicial.
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Acreditamos que cada pequeno passo pode ser o primeiro de
                     muitos em direção a um negócio de uma dimensão gigante. Ou
                     ainda, pode ser aquele impulso financeiro extra que você
-                    precisa para investir em outras áreas que ama. Na [Nome da
-                    Empresa], estamos comprometidos em proporcionar um ambiente
+                    precisa para investir em outras áreas que ama. Na Get Your Biz, estamos comprometidos em proporcionar um ambiente
                     sem burocracias, onde os empreendedores podem prosperar e
                     alcançar a independência financeira.
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Entendemos a importância de investir no futuro e na
                     construção de um legado financeiro sólido. Cada ação que
                     você toma hoje pode abrir portas para um futuro próspero e
@@ -65,9 +61,9 @@ const BlogData = () => {
                     dar o primeiro passo conosco e iniciar a jornada em direção
                     à liberdade financeira e ao sucesso.
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Lembre-se sempre: o investimento em si mesmo é o melhor
-                    investimento que você pode fazer. Na [Nome da Empresa],
+                    investimento que você pode fazer. Na Get Your Biz,
                     estamos aqui para ajudá-lo a fazer exatamente isso. Junte-se
                     a nós e descubra como você pode transformar seus sonhos em
                     realidade, um passo de cada vez.
