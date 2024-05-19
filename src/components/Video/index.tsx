@@ -30,7 +30,7 @@ const Video = () => {
               loading="lazy"
               style={{ position: "absolute", width: "100%", height: "10n0%", top: 0, left: 0, border: "none", padding: 0, margin: 0 }}
               src="https://www.canva.com/design/DAGFPaviRLU/uQnU-Yix9if2JiEPO8R1kQ/watch?embed"
-              allowFullScreen="true"
+              allowFullScreen={true}
             />
               </div>
             </div>
